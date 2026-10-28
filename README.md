@@ -1,5 +1,5 @@
 # TP2-ISI
-Osca Nahuel Jose
+Osca Nahuel Jose - Gabriel Antequera - Joaquin Arce
 
 Justificación del diseño UML
 
