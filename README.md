@@ -14,3 +14,5 @@ Tambien incorpore una fábrica llamada "FabricaAutor", junto con "FabricaUsuario
 Para la generacion de respuestas mediante inteligencia artificial, utilice el patron Strategy. Defini la interfaz "EstrategiaAI", que contiene el método "generarRespuesta()", y las clases "EstrategiaOpenAI", "EstrategiaGemin"` y "EstrategiaLocal", que implementan ese método de distintas maneras.
 La clase "AgenteAI" tiene una referencia a "EstrategiaAI", que puede cambiar mediante el metodo "setEstrategia()". Esto permite elegir que estrategia utilizar sin tener que modificar la clase "AgenteAI" cada vez que se quiera cambiar de proveedor.
 Se pueden agregar nuevos proveedores de inteligencia artificial o cambiar entre los existentes sin afectar el resto del sistema.
+
+el diagrama UML esta en archivo .astah lo cual es nesesario abrirlo con ese programa, de todas formas le dejo fotos.
